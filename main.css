@@ -1,0 +1,35 @@
+#term::before {
+    content: "Search Terms";
+ }
+ 
+ 
+ #term,
+ #number,
+ #syear,
+ #eyear {
+    box-shadow: 2px 1px #dddddd;
+ }
+ 
+ #submit,
+ button {
+    background-image: linear-gradient(to right, #fff , #eee);
+    margin-right: 8px;
+ }
+ 
+ form,
+ #topArticle {
+    border: solid 1px #888888;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    box-sizing: border-box;
+ }
+ #topArticle {
+    background-image: linear-gradient(to right, #fff , #eee);
+ }
+ 
+ .card-body {
+    box-shadow: 10px 4px #bbbbbb;
+    border-radius: 5px;
+    margin-bottom: 11px;
+ }

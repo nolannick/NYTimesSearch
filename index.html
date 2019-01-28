@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Page Title</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+       crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+
+<body>
+   <form name='search'>
+       <div class="form-group">
+           <label for="term">Search Terms</label>
+           <input id='term' class="form-control">
+       </div>
+       <div class="form-group">
+           <label for="number"> Records to Retrieve (up to 10)</label>
+           <input id='number' class="form-control">
+       </div>
+       <p> Start Year<select id='sYear'></select></p>
+       <p>End Year<select id='eYear'></select></p>
+       <p><input type="submit" id='submit'>
+           <button id='clear'>Clear</button></p>
+   </form>
+
+   <div id="topArticle">
+       <h2>Top Articles</h2>
+       <div id="resultsSection"></div>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+       crossorigin="anonymous"></script>
+   <script src="main.js"></script>
+</body>
