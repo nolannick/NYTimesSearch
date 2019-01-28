@@ -71,7 +71,9 @@ const render = function (resultArray) {
 
 
 var min = 1970;
-var max = 2019;
+var d = new Date();
+var n = d.getFullYear();
+let max = n;
 
 var sYear = document.getElementById('sYear');
 var eYear = document.getElementById('eYear');
